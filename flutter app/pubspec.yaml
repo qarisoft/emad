@@ -1,0 +1,60 @@
+name: emad_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10+1
+  analyzer: ^6.4.1
+  json_serializable: ^6.8.0
+  dartz: ^0.10.1
+  shared_preferences: ^2.2.3
+  freezed: ^2.5.2
+  get_it: ^7.7.0
+  lottie: ^3.1.0
+  image_picker: ^1.1.0
+  rxdart: ^0.27.7
+  carousel_slider: ^4.2.1
+  easy_localization: ^3.0.6
+  flutter_phoenix: ^1.1.1
+  curved_labeled_navigation_bar: ^2.0.2
+  freezed_annotation: ^2.4.1
+  sqflite: ^2.3.3
+  json_annotation:
+  sqlite3: ^2.4.2
+  material_table_view: ^4.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.9
+  # retrofit_generator: ^8.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/json/loading.json
+    - assets/json/error.json
+    - assets/json/empty.json
+    - assets/json/success.json
+    - assets/translations/ar-SA.json
+    - assets/translations/en-US.json
+
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Black.ttf
+        - asset: assets/fonts/Tajawal-Bold.ttf
+        - asset: assets/fonts/Tajawal-ExtraBold.ttf
+        - asset: assets/fonts/Tajawal-ExtraLight.ttf
+        - asset: assets/fonts/Tajawal-Light.ttf
+        - asset: assets/fonts/Tajawal-Medium.ttf
+        - asset: assets/fonts/Tajawal-Regular.ttf
